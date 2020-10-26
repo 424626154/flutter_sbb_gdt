@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5c43cb4-af0f-4306-b18c-4022ca20564e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/ios/Classes" />
     </key>
   </component>
@@ -43,5 +44,23 @@
       <updated>1603718475650</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1038" height="195" key="GridCell.Tab.0.bottom" timestamp="1603750863544">
+      <screen x="29" y="25" width="1251" height="775" />
+    </state>
+    <state width="1038" height="195" key="GridCell.Tab.0.bottom/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603750863544" />
+    <state width="1038" height="195" key="GridCell.Tab.0.center" timestamp="1603750863542">
+      <screen x="29" y="25" width="1251" height="775" />
+    </state>
+    <state width="1038" height="195" key="GridCell.Tab.0.center/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603750863542" />
+    <state width="1038" height="195" key="GridCell.Tab.0.left" timestamp="1603750863541">
+      <screen x="29" y="25" width="1251" height="775" />
+    </state>
+    <state width="1038" height="195" key="GridCell.Tab.0.left/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603750863541" />
+    <state width="1038" height="195" key="GridCell.Tab.0.right" timestamp="1603750863543">
+      <screen x="29" y="25" width="1251" height="775" />
+    </state>
+    <state width="1038" height="195" key="GridCell.Tab.0.right/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603750863543" />
   </component>
 </project>
