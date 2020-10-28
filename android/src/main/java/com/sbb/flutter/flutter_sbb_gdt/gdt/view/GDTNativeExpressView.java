@@ -17,13 +17,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.PluginRegistry;
 import io.flutter.plugin.platform.PlatformView;
 
 public class GDTNativeExpressView implements PlatformView, NativeExpressAD.NativeExpressADListener{
 
-    PluginRegistry.Registrar mRegistrar;
+//    PluginRegistry.Registrar mRegistrar;
     Context mContext;
     int viewID;
     NativeExpressAD expressAD;
@@ -32,13 +33,13 @@ public class GDTNativeExpressView implements PlatformView, NativeExpressAD.Nativ
     Activity mActivity;
     FrameLayout layout;
 
-    public GDTNativeExpressView(Context context, PluginRegistry.Registrar registrar, int id, Map<String, Object> args){
+    public GDTNativeExpressView(Context context, BinaryMessenger messenger, int id, Map<String, Object> args){
         this.mContext = context;
-        this.mActivity = registrar.activity();
-        this.mRegistrar = registrar;
+        this.mActivity = FlutterSbbGdtPlugin.getActivity();
+//        this.mRegistrar = registrar;
         this.viewID = id;
         this.params = args;
-        methodChannel = new MethodChannel(registrar.messenger(), "plugins.hetian.me/gdtview_express/" + id);
+        methodChannel = new MethodChannel(messenger, "plugins.hetian.me/gdtview_express/" + id);
 
         layout = new FrameLayout(mContext);
         layout.setLayoutParams(new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.WRAP_CONTENT));

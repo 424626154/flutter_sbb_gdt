@@ -17,12 +17,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 import io.flutter.Log;
+import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.PluginRegistry;
 import io.flutter.plugin.platform.PlatformView;
 
 public class GDTBannerView implements PlatformView, UnifiedBannerADListener {
-    PluginRegistry.Registrar mRegistrar;
+//    PluginRegistry.Registrar mRegistrar;
     UnifiedBannerView bv;
     Context mContext;
     int viewID;
@@ -33,13 +34,12 @@ public class GDTBannerView implements PlatformView, UnifiedBannerADListener {
     FrameLayout layout;
     static String TAG = "GDTBannerView";
 
-    public GDTBannerView(Context context, PluginRegistry.Registrar registrar, int id, Map<String, Object> args){
+    public GDTBannerView(Context context, BinaryMessenger messenger, int id, Map<String, Object> args){
         this.mContext = context;
-        this.mActivity = registrar.activity();
-        this.mRegistrar = registrar;
+        this.mActivity = FlutterSbbGdtPlugin.getActivity();
         this.viewID = id;
         this.params = args;
-        methodChannel = new MethodChannel(registrar.messenger(), "plugins.hetian.me/gdtview_banner/" + id);
+        methodChannel = new MethodChannel(messenger, "plugins.hetian.me/gdtview_banner/" + id);
         Log.i(TAG, "GDTBannerView: " + "plugins.hetian.me/gdtview_banner/" + id);
         layout = new FrameLayout(mContext);
         layout.setLayoutParams(getUnifiedBannerLayoutParams());

@@ -2,6 +2,7 @@ package com.sbb.flutter.flutter_sbb_gdt.gdt;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Context;
 import android.content.res.AssetManager;
 import android.graphics.BitmapFactory;
 import android.util.Log;
@@ -23,11 +24,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
+import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.PluginRegistry;
 
 public class Splash implements SplashADListener {
-    PluginRegistry.Registrar mRegistrar;
+    Context context;
+    BinaryMessenger messenger;
     MethodChannel methodChannel;
     String posId;
     private static Splash _Splash;
@@ -40,23 +43,24 @@ public class Splash implements SplashADListener {
     private static final String SKIP_TEXT = "点击跳过 %d";
 
 
-    public static Splash getInstance(PluginRegistry.Registrar registrar) {
+    public static Splash getInstance(Context context,BinaryMessenger messenger) {
         if (_Splash == null) {
-            _Splash = new Splash(registrar);
+            _Splash = new Splash(context,messenger);
         }
         return _Splash;
     }
 
-    Splash(PluginRegistry.Registrar registrar) {
-        this.mRegistrar = registrar;
-        this.mActivity = registrar.activity();
+    Splash(Context context,BinaryMessenger messenger) {
+        this.context = context;
+        this.messenger = messenger;
+        this.mActivity = FlutterSbbGdtPlugin.getActivity();
         layout = (RelativeLayout) LayoutInflater.from(mActivity).inflate(R.layout.activity_splash, null);
     }
 
     public void show(Map<String, Object> args, MethodChannel.Result result) {
         String uuid = UUID.randomUUID().toString().replaceAll("-","");
         String channelName = "plugins.hetian.me/gdt_plugins/shlash/" + uuid;
-        methodChannel = new MethodChannel(mRegistrar.messenger(), channelName);
+        methodChannel = new MethodChannel(messenger, channelName);
         HashMap<String, String> rets = new HashMap<>();
         rets.put("channel_name", channelName);
         result.success(rets);
@@ -69,8 +73,9 @@ public class Splash implements SplashADListener {
         splashLogo = (ImageView) layout.findViewById(R.id.app_logo);
 
         if ((Boolean) args.get("has_footer")) {
-            AssetManager assetManager = mRegistrar.context().getAssets();
-            String key = mRegistrar.lookupKeyForAsset((String) args.get("logo_name"));
+            AssetManager assetManager = context.getAssets();
+//            String key = mRegistrar.lookupKeyForAsset((String) args.get("logo_name"));
+            String key = FlutterSbbGdtPlugin.getInstance().flutterAssets.getAssetFilePathByName((String) args.get("logo_name"));
             try {
                 splashLogo.setVisibility(View.VISIBLE);
                 splashLogo.setImageBitmap(BitmapFactory.decodeStream(assetManager.open(key)));

@@ -39,7 +39,6 @@ repositories {
 }
 
 dependencies {
-    api fileTree(include: ['*.aar'], dir: 'libs')
-//    implementation project(":GDTSDK.unionNoPlugin.4.270.1140")
-//    implementation (name:'GDTSDK.unionNoPlugin.4.270.1140', ext:'aar')
+//    implementation fileTree(include: ['*.aar'], dir: 'libs')
+    provided fileTree(include: ['*.aar'], dir: 'libs')
 }
