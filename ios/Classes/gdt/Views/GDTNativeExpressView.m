@@ -29,7 +29,7 @@
         _viewId = viewId;
         _args = args;
         _messenger = messenger;
-        NSString *channelName = [NSString stringWithFormat:@"plugins.hetian.me/gdtview_express/%lld", _viewId];
+        NSString *channelName = [NSString stringWithFormat:@"flutter_sbb_gdt/gdtview_express/%lld", _viewId];
         _methodChannel = [FlutterMethodChannel methodChannelWithName:channelName binaryMessenger:messenger];
         [self loadAds];
     }

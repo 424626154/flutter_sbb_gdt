@@ -71,11 +71,11 @@ public class FlutterSbbGdtPlugin implements FlutterPlugin, MethodCallHandler, Ac
   /** Plugin registration. */
 //  public static void registerWith(Registrar registrar) {
 //    FlutterSbbGdtPlugin.registrar = registrar;
-//    FlutterSbbGdtPlugin.channel = new MethodChannel(registrar.messenger(), "plugins.hetian.me/gdt_plugins");
+//    FlutterSbbGdtPlugin.channel = new MethodChannel(registrar.messenger(), "flutter_sbb_gdt/gdt_plugins");
 //    FlutterSbbGdtPlugin.channel.setMethodCallHandler(new FlutterSbbGdtPlugin());
 //
-//    registrar.platformViewRegistry().registerViewFactory("plugins.hetian.me/gdtview_banner", new GDTBannerFactory(registrar));
-//    registrar.platformViewRegistry().registerViewFactory("plugins.hetian.me/gdtview_native", new GDTNativeExpress(registrar));
+//    registrar.platformViewRegistry().registerViewFactory("flutter_sbb_gdt/gdtview_banner", new GDTBannerFactory(registrar));
+//    registrar.platformViewRegistry().registerViewFactory("flutter_sbb_gdt/gdtview_native", new GDTNativeExpress(registrar));
 //  }
 
   @Override

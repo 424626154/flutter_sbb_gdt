@@ -47,7 +47,7 @@ public class Interstitial implements UnifiedInterstitialADListener, MethodChanne
     }
 
     public static String GetChannelName(String uuid) {
-        return "plugins.hetian.me/gdt_plugins/interstitial/" + uuid;
+        return "flutter_sbb_gdt/gdt_plugins/interstitial/" + uuid;
     }
 
     Interstitial(String uuid, Map<String, Object> args) {

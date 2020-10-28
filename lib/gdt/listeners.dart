@@ -307,7 +307,7 @@ class BannerListener {
 
   void bindViewID (int viewID) {
     this.viewID = viewID;
-    _channel = MethodChannel("plugins.hetian.me/gdtview_banner/$viewID");
+    _channel = MethodChannel("flutter_sbb_gdt/gdtview_banner/$viewID");
     _channel.setMethodCallHandler(this._handleMessages);
   }
 
@@ -422,7 +422,7 @@ class NativeExpressListener {
 
   void bindViewID (int viewID) {
     this.viewID = viewID;
-    _channel = MethodChannel("plugins.hetian.me/gdtview_express/$viewID");
+    _channel = MethodChannel("flutter_sbb_gdt/gdtview_express/$viewID");
     _channel.setMethodCallHandler(_handleMessages);
   }
 

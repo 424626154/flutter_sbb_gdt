@@ -34,7 +34,7 @@
 //    _rewardVideoAd.videoMuted = NO; // 设置激励视频是否静音
     [_rewardVideoAd loadAd];
     NSString *uuid = [GDTConfig createUUID];
-    NSString *channelName = [NSString stringWithFormat:@"plugins.hetian.me/gdt_plugins/reward_video/%@", uuid];
+    NSString *channelName = [NSString stringWithFormat:@"flutter_sbb_gdt/gdt_plugins/reward_video/%@", uuid];
     _methodChannel = [FlutterMethodChannel methodChannelWithName:channelName binaryMessenger:_messenger];
     result(@{@"channel_name":channelName});
 }

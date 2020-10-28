@@ -39,7 +39,7 @@ public class GDTNativeExpressView implements PlatformView, NativeExpressAD.Nativ
 //        this.mRegistrar = registrar;
         this.viewID = id;
         this.params = args;
-        methodChannel = new MethodChannel(messenger, "plugins.hetian.me/gdtview_express/" + id);
+        methodChannel = new MethodChannel(messenger, "flutter_sbb_gdt/gdtview_express/" + id);
 
         layout = new FrameLayout(mContext);
         layout.setLayoutParams(new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.WRAP_CONTENT));

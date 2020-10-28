@@ -29,15 +29,15 @@
 //    
 //    // 注册banner视图
 //    GDTBannerFactory *GDTBannerView = [[GDTBannerFactory alloc] initWithMessenger:registrar.messenger];
-//    [registrar registerViewFactory:GDTBannerView withId:@"plugins.hetian.me/gdtview_banner"];
+//    [registrar registerViewFactory:GDTBannerView withId:@"flutter_sbb_gdt/gdtview_banner"];
 //    
 //    // 注册原生模版广告
 //    GDTNativeExpressFactory *GDTNativeView = [[GDTNativeExpressFactory alloc] initWithMessenger:registrar.messenger];
-//    [registrar registerViewFactory:GDTNativeView withId:@"plugins.hetian.me/gdtview_native"];
+//    [registrar registerViewFactory:GDTNativeView withId:@"flutter_sbb_gdt/gdtview_native"];
 //    
 //    // 注册插件通道
 //    pluginChannel = [FlutterMethodChannel
-//                     methodChannelWithName:@"plugins.hetian.me/gdt_plugins"
+//                     methodChannelWithName:@"flutter_sbb_gdt/gdt_plugins"
 //                     binaryMessenger:[registrar messenger]];
 //    [registrar addMethodCallDelegate:instance channel:pluginChannel];
 //}

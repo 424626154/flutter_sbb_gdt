@@ -6,7 +6,7 @@ import 'dart:typed_data';
 
 class FlutterGdtPlugin {
   static const MethodChannel _channel =
-  const MethodChannel('plugins.hetian.me/gdt_plugins');
+  const MethodChannel('flutter_sbb_gdt/gdt_plugins');
 
   static bool isInit = false;
 

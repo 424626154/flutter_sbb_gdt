@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5c43cb4-af0f-4306-b18c-4022ca20564e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/FlutterSbbGdtPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/FlutterSbbGdtPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/gdt/Splash.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/gdt/Splash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/gdt/ractory/GDTBannerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/gdt/ractory/GDTBannerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/gdt/ractory/GDTNativeExpress.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/gdt/ractory/GDTNativeExpress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/gdt/view/GDTBannerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/gdt/view/GDTBannerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/gdt/view/GDTNativeExpressView.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/gdt/view/GDTNativeExpressView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/flutter_sbb_gdt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/flutter_sbb_gdt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_sbb_gdt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_sbb_gdt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gdt/flutterGdtPlugin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gdt/flutterGdtPlugin.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gdt/gdt_interstitial.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gdt/gdt_interstitial.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gdt/views.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gdt/views.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +72,10 @@
       <screen x="29" y="25" width="1251" height="775" />
     </state>
     <state x="240" y="241" key="com.intellij.ide.util.TipDialog/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603823777793" />
-    <state x="222" y="169" width="696" height="486" key="find.popup" timestamp="1603851111667">
+    <state x="222" y="169" width="696" height="490" key="find.popup" timestamp="1603929156654">
       <screen x="29" y="25" width="1251" height="775" />
     </state>
-    <state x="222" y="169" width="696" height="486" key="find.popup/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603851111667" />
+    <state x="1447" y="377" width="601" height="1189" key="find.popup/29.25.1251.775/1280.25.1080.1895@1280.25.1080.1895" timestamp="1603928871456" />
+    <state x="222" y="169" width="696" height="490" key="find.popup/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603929156654" />
   </component>
 </project>

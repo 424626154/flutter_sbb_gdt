@@ -26,7 +26,7 @@
 
 + (NSString *)getChannelName:(NSString *)uuid
 {
-    NSString *channelName = [NSString stringWithFormat:@"plugins.hetian.me/gdt_plugins/interstitial/%@", uuid];
+    NSString *channelName = [NSString stringWithFormat:@"flutter_sbb_gdt/gdt_plugins/interstitial/%@", uuid];
     return channelName;
 }
 

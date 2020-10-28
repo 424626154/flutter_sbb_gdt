@@ -39,8 +39,8 @@ public class GDTBannerView implements PlatformView, UnifiedBannerADListener {
         this.mActivity = FlutterSbbGdtPlugin.getActivity();
         this.viewID = id;
         this.params = args;
-        methodChannel = new MethodChannel(messenger, "plugins.hetian.me/gdtview_banner/" + id);
-        Log.i(TAG, "GDTBannerView: " + "plugins.hetian.me/gdtview_banner/" + id);
+        methodChannel = new MethodChannel(messenger, "flutter_sbb_gdt/gdtview_banner/" + id);
+        Log.i(TAG, "GDTBannerView: " + "flutter_sbb_gdt/gdtview_banner/" + id);
         layout = new FrameLayout(mContext);
         layout.setLayoutParams(getUnifiedBannerLayoutParams());
 

@@ -50,7 +50,7 @@
         [_bottomView addSubview:logo];
     }
     NSString *uuid = [GDTConfig createUUID];
-    NSString *channelName = [NSString stringWithFormat:@"plugins.hetian.me/gdt_plugins/shlash/%@", uuid];
+    NSString *channelName = [NSString stringWithFormat:@"flutter_sbb_gdt/gdt_plugins/shlash/%@", uuid];
     _methodChannel = [FlutterMethodChannel methodChannelWithName:channelName binaryMessenger:_messenger];
     result(@{@"channel_name":channelName});
     UIWindow *fK = [[UIApplication sharedApplication] keyWindow];

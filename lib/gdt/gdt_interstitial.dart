@@ -20,7 +20,7 @@ class GDTInterstitial{
   MethodChannel _methodChannel;
 
   GDTInterstitial(this.posId, {this.adEventCallback}) {
-    var channelName = 'plugins.hetian.me/gdt_plugins/interstitial/$posId';
+    var channelName = 'flutter_sbb_gdt/gdt_plugins/interstitial/$posId';
     print('$channelName');
     this._methodChannel = MethodChannel(channelName);
     this._methodChannel.setMethodCallHandler(_handleMethodCall);

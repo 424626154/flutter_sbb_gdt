@@ -38,7 +38,7 @@ class _GDTBannerViewState extends State<GDTBannerView> {
       return SizedBox(
         height: _size.height,
         child: AndroidView(
-          viewType: "plugins.hetian.me/gdtview_banner",
+          viewType: "flutter_sbb_gdt/gdtview_banner",
           creationParams: {"posId": widget.posId},
           creationParamsCodec: const StandardMessageCodec(),
           onPlatformViewCreated: _onPlatformViewCreated,
@@ -52,7 +52,7 @@ class _GDTBannerViewState extends State<GDTBannerView> {
       return SizedBox(
         height: _size.height,
         child: UiKitView(
-          viewType: "plugins.hetian.me/gdtview_banner",
+          viewType: "flutter_sbb_gdt/gdtview_banner",
           creationParams: {"posId": widget.posId},
           creationParamsCodec: const StandardMessageCodec(),
           onPlatformViewCreated: _onPlatformViewCreated,
@@ -125,7 +125,7 @@ class _GDTNativeExpressViewState extends State<GDTNativeExpressView> {
       return Container(
         height: _size.height,
         child: AndroidView(
-          viewType: "plugins.hetian.me/gdtview_native",
+          viewType: "flutter_sbb_gdt/gdtview_native",
           creationParams: {"posId": widget.posId},
           creationParamsCodec: const StandardMessageCodec(),
           onPlatformViewCreated: _onPlatformViewCreated,
@@ -139,7 +139,7 @@ class _GDTNativeExpressViewState extends State<GDTNativeExpressView> {
       return SizedBox(
         height: _size.height,
         child: UiKitView(
-          viewType: "plugins.hetian.me/gdtview_native",
+          viewType: "flutter_sbb_gdt/gdtview_native",
           creationParams: {"posId": widget.posId},
           creationParamsCodec: const StandardMessageCodec(),
           onPlatformViewCreated: _onPlatformViewCreated,

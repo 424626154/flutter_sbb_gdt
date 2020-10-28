@@ -59,7 +59,7 @@ public class Splash implements SplashADListener {
 
     public void show(Map<String, Object> args, MethodChannel.Result result) {
         String uuid = UUID.randomUUID().toString().replaceAll("-","");
-        String channelName = "plugins.hetian.me/gdt_plugins/shlash/" + uuid;
+        String channelName = "flutter_sbb_gdt/gdt_plugins/shlash/" + uuid;
         methodChannel = new MethodChannel(messenger, channelName);
         HashMap<String, String> rets = new HashMap<>();
         rets.put("channel_name", channelName);
