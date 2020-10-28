@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5c43cb4-af0f-4306-b18c-4022ca20564e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/FlutterSbbGdtPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/FlutterSbbGdtPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/FlutterSbbGdtPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/FlutterSbbGdtPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/example/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_6P_API_28" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="371acaf1" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -23,11 +38,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/libs" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/libs" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/ios/Classes" />
     </key>
@@ -46,21 +62,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1038" height="195" key="GridCell.Tab.0.bottom" timestamp="1603750863544">
+    <state width="1038" height="195" key="GridCell.Tab.0.bottom" timestamp="1603821262681">
       <screen x="29" y="25" width="1251" height="775" />
     </state>
-    <state width="1038" height="195" key="GridCell.Tab.0.bottom/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603750863544" />
-    <state width="1038" height="195" key="GridCell.Tab.0.center" timestamp="1603750863542">
+    <state width="1038" height="195" key="GridCell.Tab.0.bottom/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603821262681" />
+    <state width="1038" height="195" key="GridCell.Tab.0.center" timestamp="1603821262678">
       <screen x="29" y="25" width="1251" height="775" />
     </state>
-    <state width="1038" height="195" key="GridCell.Tab.0.center/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603750863542" />
-    <state width="1038" height="195" key="GridCell.Tab.0.left" timestamp="1603750863541">
+    <state width="1038" height="195" key="GridCell.Tab.0.center/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603821262678" />
+    <state width="1038" height="195" key="GridCell.Tab.0.left" timestamp="1603821262672">
       <screen x="29" y="25" width="1251" height="775" />
     </state>
-    <state width="1038" height="195" key="GridCell.Tab.0.left/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603750863541" />
-    <state width="1038" height="195" key="GridCell.Tab.0.right" timestamp="1603750863543">
+    <state width="1038" height="195" key="GridCell.Tab.0.left/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603821262672" />
+    <state width="1038" height="195" key="GridCell.Tab.0.right" timestamp="1603821262681">
       <screen x="29" y="25" width="1251" height="775" />
     </state>
-    <state width="1038" height="195" key="GridCell.Tab.0.right/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603750863543" />
+    <state width="1038" height="195" key="GridCell.Tab.0.right/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603821262681" />
+    <state x="240" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1603823777793">
+      <screen x="29" y="25" width="1251" height="775" />
+    </state>
+    <state x="240" y="241" key="com.intellij.ide.util.TipDialog/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603823777793" />
+    <state x="222" y="169" width="696" height="486" key="find.popup" timestamp="1603851111667">
+      <screen x="29" y="25" width="1251" height="775" />
+    </state>
+    <state x="222" y="169" width="696" height="486" key="find.popup/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603851111667" />
   </component>
 </project>

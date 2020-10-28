@@ -31,3 +31,8 @@ android {
         disable 'InvalidPackage'
     }
 }
+
+dependencies {
+    implementation fileTree(include: ['*.aar'], dir: 'libs')
+//    implementation (name:'GDTSDK.unionNoPlugin.4.270.1140', ext:'aar')
+}
