@@ -1,4 +1,3 @@
-include ':GDTSDK.unionNoPlugin.4.270.1140'
 include ':app'
 
 def localPropertiesFile = new File(rootProject.projectDir, "local.properties")
