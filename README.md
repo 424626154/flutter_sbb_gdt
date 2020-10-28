@@ -54,3 +54,9 @@ buldsetting 中设置 Allow Non-modular Includes In Framework Modules 为 YES
 需要注意的是 provider 的 authorities 值为 ${applicationId}.gdt.fileprovider，对于每一个开发者而言，这个值都是不同的，${applicationId} 在代码中和 Context.getPackageName() 值相等，是应用的唯一 id。
 
 例如 Demo 示例工程中的 applicationId 为 "com.qq.e.union.demo"。
+
+git方式引入
+ flutter_sbb_gdt:
+    git:
+      url: https://github.com/424626154/flutter_sbb_gdt
+      ref: main
