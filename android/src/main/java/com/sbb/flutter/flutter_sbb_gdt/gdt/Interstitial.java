@@ -54,13 +54,13 @@ public class Interstitial implements UnifiedInterstitialADListener, MethodChanne
         this.uuid = uuid;
         params = args;
         this.posId = (String) params.get("posId");
-        methodChannel = new MethodChannel(FlutterSbbGdtPlugin.registrar.messenger(), GetChannelName(uuid));
+        methodChannel = new MethodChannel(FlutterSbbGdtPlugin.getInstance().flutterPluginBinding.getBinaryMessenger(), GetChannelName(uuid));
         methodChannel.setMethodCallHandler(this);
     }
 
     private void load(MethodChannel.Result result) {
         if (this.iad == null) {
-            iad = new UnifiedInterstitialAD(FlutterSbbGdtPlugin.registrar.activity(), FlutterSbbGdtPlugin.appid, posId, this);
+            iad = new UnifiedInterstitialAD(FlutterSbbGdtPlugin.getActivity(), posId, this);
         }
         iad.loadAD();
         result.success(true);

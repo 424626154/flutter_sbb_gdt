@@ -48,7 +48,7 @@ public class FlutterSbbGdtPlugin implements FlutterPlugin, MethodCallHandler, Ac
   private Activity activity;
   public static MethodChannel channel;
   public static String appid;
-  private FlutterPluginBinding flutterPluginBinding;
+  public FlutterPluginBinding flutterPluginBinding;
 //  public static Registrar registrar;
   public FlutterAssets flutterAssets;
 
