@@ -6,9 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="b5c43cb4-af0f-4306-b18c-4022ca20564e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/FlutterSbbGdtPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/FlutterSbbGdtPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/gdt/Interstitial.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/gdt/Interstitial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/FlutterSbbGdtPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/android/src/main/java/com/sbb/flutter/flutter_sbb_gdt/FlutterSbbGdtPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/ios/Classes/gdt/GDTInterstitial.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/ios/Classes/gdt/GDTInterstitial.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/ios/Classes/gdt/GDTUnifiedInterstitial.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_sbb_gdt/ios/Classes/gdt/GDTUnifiedInterstitial.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterSbbGdtPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/FlutterSbbGdtPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/gdt/GDTInterstitial.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/gdt/GDTInterstitial.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/gdt/GDTUnifiedInterstitial.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/gdt/GDTUnifiedInterstitial.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +39,12 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/aar" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/aar" />
       <recent name="$PROJECT_DIR$/android/libs" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/ios/Classes" />
@@ -74,10 +84,10 @@
       <screen x="29" y="25" width="1251" height="775" />
     </state>
     <state x="240" y="241" key="com.intellij.ide.util.TipDialog/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603823777793" />
-    <state x="222" y="169" width="696" height="490" key="find.popup" timestamp="1603929240117">
-      <screen x="29" y="25" width="1251" height="775" />
+    <state x="1447" y="377" width="601" height="1189" key="find.popup" timestamp="1603935449879">
+      <screen x="1280" y="25" width="1080" height="1895" />
     </state>
-    <state x="1447" y="377" width="601" height="1189" key="find.popup/29.25.1251.775/1280.25.1080.1895@1280.25.1080.1895" timestamp="1603928871456" />
+    <state x="1447" y="377" width="601" height="1189" key="find.popup/29.25.1251.775/1280.25.1080.1895@1280.25.1080.1895" timestamp="1603935449879" />
     <state x="222" y="169" width="696" height="490" key="find.popup/29.25.1251.775/1280.25.1080.1895@29.25.1251.775" timestamp="1603929240117" />
   </component>
 </project>

@@ -8,7 +8,7 @@
 #import "GDTInterstitial.h"
 #import "FlutterGdtPlugin.h"
 #import "FlutterPluginCache.h"
-#import "FlutterSbbGdtIosPlugin.h"
+#import "FlutterSbbGdtPlugin.h"
 
 @implementation GDTInterstitial
 {
@@ -37,7 +37,7 @@
         isOk = NO;
         _uuid = uuid;
         NSString *channelName = [GDTInterstitial getChannelName:uuid];
-        _methodChannel = [FlutterMethodChannel methodChannelWithName:channelName binaryMessenger:[FlutterSbbGdtIosPlugin sharedInstance].registrar.messenger];
+        _methodChannel = [FlutterMethodChannel methodChannelWithName:channelName binaryMessenger:[FlutterSbbGdtPlugin sharedInstance].registrar.messenger];
         __weak __typeof__(self) weakSelf = self;
         [_methodChannel setMethodCallHandler:^(FlutterMethodCall* call, FlutterResult result){
             [weakSelf onMethodCall:call result: result];

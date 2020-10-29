@@ -8,7 +8,7 @@
 
 
 #import "GDTUnifiedInterstitial.h"
-#import "FlutterSbbGdtIosPlugin.h"
+#import "FlutterSbbGdtPlugin.h"
 
 @implementation GDTUnifiedInterstitial{
     NSString *posId;
@@ -64,7 +64,7 @@
 
 - (void)close{
     self.ad.delegate = nil;
-    [FlutterSbbGdtIosPlugin removeInterstitial:posId];
+    [FlutterSbbGdtPlugin removeInterstitial:posId];
 }
 
 

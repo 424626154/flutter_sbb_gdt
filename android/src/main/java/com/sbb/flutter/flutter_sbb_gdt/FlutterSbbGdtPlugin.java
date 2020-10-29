@@ -81,7 +81,7 @@ public class FlutterSbbGdtPlugin implements FlutterPlugin, MethodCallHandler, Ac
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
 
-    channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "flutter_sbb_gdt");
+    channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "flutter_sbb_gdt/gdt_plugins");
     channel.setMethodCallHandler(this);
 
     flutterPluginBinding.getPlatformViewRegistry().registerViewFactory("flutter_sbb_gdt/gdtview_banner", new GDTBannerFactory(flutterPluginBinding.getBinaryMessenger()));
@@ -102,12 +102,12 @@ public class FlutterSbbGdtPlugin implements FlutterPlugin, MethodCallHandler, Ac
       }
     }else if(call.method.equals("init")){
       init(call, result);
-    }else if(call.method.equals("init")){
+    }else if(call.method.equals("interstitial")){
       String uuid = Interstitial.CreateInterstitial((Map<String, Object>)call.arguments);
       HashMap<String, String> rets = new HashMap<>();
       rets.put("channel_name", Interstitial.GetChannelName(uuid));
       result.success(rets);
-    }else if(call.method.equals("init")){
+    }else if(call.method.equals("splash")){
       Splash.getInstance(flutterPluginBinding.getApplicationContext(),flutterPluginBinding.getBinaryMessenger()).show((Map<String, Object>)call.arguments, result);
     } else {
       result.notImplemented();
